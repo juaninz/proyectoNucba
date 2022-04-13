@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #fdfa36fb;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height:40px;
+    justify-self: center;
+    align-self: center;
+    margin-left: 2em;
+    transform: scale(1.25);
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family:'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+}
+
+ul li{
+    padding:2em;
+    
+}
+
+li:hover{
+    background-color: #fffffffb;   
+    color:#000000fb;
+}
+/* a:hover>li{
+    background-color: #000000fb;  
+}
+
+li a:hover {
+    height:100%;
+    background-color: #000000fb;
+    color:#fffffffb;
+} */
+
