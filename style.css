@@ -93,10 +93,9 @@ li a:focus {
 
 
 @media (max-width:768px) {
-    .logo {
+    .logo{
         display: none;
     }
-
     .header-btn {
         display: block
     }
@@ -120,6 +119,25 @@ li a:focus {
     }
 
 }
+
+/*cabecera*/
+.cabecera{
+    display: none;
+}
+
+
+@media (max-width:768px) {
+    .cabecera{
+        display: block;
+        width: 100%;
+    }
+
+    .cabecera img{
+        width: 100%;
+    }
+}
+
+
 
 /*Nosotros*/
 
@@ -434,4 +452,3 @@ li a:focus {
         list-style: none;
     }
 }
-
