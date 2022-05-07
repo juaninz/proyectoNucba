@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/a21d7ac1f5.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap" rel="stylesheet">
     <title>Document</title>
@@ -14,18 +15,29 @@
 </head>
 
 <body>
-    <nav>
+    <header>
         <a href="#" class="logo">
-            <img src="logo.png" alt="" class="logo">
+            <img src="images/logo.png" alt="" class="logo">
         </a>
-        <ul class="lista">
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Elaboración</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
-    <section class="nosotros">
+        <label class="header-btn" for="btn">
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </label>
+        <input type="checkbox" class="check" id="btn">
+        <nav class="navegador">
+            <ul>
+                <li><a href="#Nosotros"> Nosotros </a></li>
+                <li><a href="#Mision"> Mision</a></li>
+                <li><a href="#Caracteristicas"> Caracteristicas</a></li>
+                <li><a href="#Precios"> Precios</a></li>
+                <li><a href="#Contacto"> Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="nosotros" id="Nosotros">
         <div class="nosotros-card">
             <article class="nosotros-texto">
                 <h1>Birra Ya, Tu delivery de bebidas favorito</h1>
@@ -34,17 +46,17 @@
                 <button>Contactanos</button>
                 <button> Productos </button>
             </article>
-            <img src="amigos.jpg" alt="amigos" class="nosotros-img">
+            <img src="images/amigos.jpg" alt="amigos" class="nosotros-img">
         </div>
     </section>
-    <section class="mision">
+    <section class="mision" id="Mision">
         <h2>Mision</h2>
         <p>Buscamos llevar lo mejor de la bebida a cada uno de nuestros clientes: el disfrutar del encuentro, los
             momentos y el vivir el presente. La calidad de nuestros productos y nuestra atención es lo que nos
             caracteriza.
         </p>
     </section>
-    <section class="caracteristicas">
+    <section class="caracteristicas" id="Caracteristicas">
         <div class="caracteristicas-titulo">
             <h2>Nuestra Ventajas</h2>
         </div>
@@ -95,7 +107,7 @@
                     <li>Lorem ipsum dolor.</li>
                     <li>Lorem ipsum.</li>
                 </ol>
-                <button class="btn">Comprar</button>
+                <button class="btn-prod">Comprar</button>
             </div>
             <div class="product">
                 <h4>APA</h4>
@@ -106,7 +118,7 @@
                     <li>Lorem ipsum dolor.</li>
                     <li>Lorem ipsum.</li>
                 </ol>
-                <button class="btn">Comprar</button>
+                <button class="btn-prod">Comprar</button>
             </div>
             <div class="product">
                 <h4>AMBER</h4>
@@ -115,7 +127,7 @@
                     <li>Lorem ipsum dolor.</li>
                     <li>Lorem ipsum.</li>
                 </ol>
-                <button class="btn">Comprar</button>
+                <button class="btn-prod">Comprar</button>
             </div>
         </div>
     </section>
