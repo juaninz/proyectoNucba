@@ -206,7 +206,7 @@ li a:focus {
 
     .nosotros-img {
         object-fit: cover;
-        width: 50%;
+        width: 100%;
     }
 }
 
