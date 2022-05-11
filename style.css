@@ -537,6 +537,7 @@ li a:focus {
 /*Contacto*/
 @media (min-width:1000px) {
     .contacto {
+        padding-top: 2rem;
         display: flex;
         background-color: #fdd833fb;
         font-family: 'Plus Jakarta Sans', sans-serif;
@@ -593,6 +594,7 @@ li a:focus {
         text-align: center;
         background-color: #fdd833fb;
         font-family: 'Plus Jakarta Sans', sans-serif;
+        padding-top: 1rem;
     }
 
     .formulario {
