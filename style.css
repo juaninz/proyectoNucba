@@ -631,6 +631,10 @@ li a:focus {
         width: 100%;
         margin-top: 10px;
     }
+
+    iframe{
+        width: 100%;
+    }
 }
 
 footer {
