@@ -142,52 +142,55 @@ li a:focus {
 
 /*Nosotros*/
 
-.nosotros {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2em;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background-beer.jpg");
-    background-attachment: fixed;
-}
-
-.nosotros-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2em;
-    background-color: #fdd833fb;
-    width: 80vw;
-
-}
 
 @media (min-width:1000px) {
-    .nosotros-texto {
-        width: 50%;
-        padding-right: 2em;
+
+    .nosotros {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background-beer.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
-    .nosotros-texto button {
-        margin: 0.8rem;
-        padding: 0.5rem;
-        border-radius: 50px;
-        background-color: #000000fb;
-        color: #fffffffb;
+
+    .nosotros-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+        background-color: #fdd833fb;
+        width: 80vw;
+
     }
 
-    .nosotros-texto button:hover {
+    .botones {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .botones a {
+        color: #fffffffb;
+        background-color: #000000fb;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    .botones a:hover {
         background-color: #fffffffb;
         color: #000000fb;
+
     }
 
-    .nosotros-img {
-        object-fit: cover;
-    }
+
 }
-
-
 
 
 @media (max-width:1000px) {
@@ -203,7 +206,12 @@ li a:focus {
     .nosotros-card {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+        align-items: center;
+        padding: 2em;
         background-color: #fdd833fb;
+        width: 100%;
     }
 
     .nosotros-texto {
@@ -226,6 +234,27 @@ li a:focus {
     .nosotros-img {
         object-fit: cover;
         width: 100%;
+    }
+
+    
+    .botones {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .botones a {
+        color: #fffffffb;
+        background-color: #000000fb;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    .botones a:hover {
+        background-color: #fffffffb;
+        color: #000000fb;
+
     }
 }
 
@@ -456,10 +485,14 @@ li a:focus {
 
 /* Clientes*/
 
+.section-clientes {
+    background-color: #fdd833fb;
+}
+
 .clientes {
     width: 100%;
     height: auto;
-    background-color: #fffffffb;
+    background-color: #000000fb;
     display: flex;
     flex-flow: wrap;
     justify-content: center;
@@ -471,16 +504,15 @@ li a:focus {
     font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
     padding: 20px;
-    border-top: solid 5px #000000fb;
-    border-bottom: solid 5px #000000fb;
-    margin: 10px 50px 10px 50px;
+
+    margin: 0 50px 10px 50px;
 }
 
 
 .clientes-item {
-    height: 300px;
+    height: 200px;
     width: 20%;
-    border: solid 1px #000000fb;
+    border-bottom: solid 5px #000000fb;
     margin: 10px;
     margin-top: 0;
     border-radius: 20px;
@@ -503,7 +535,7 @@ li a:focus {
     .clientes {
         width: 100%;
         height: auto;
-        background-color: #fffffffb;
+        background-color: #000000fb;
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -512,8 +544,8 @@ li a:focus {
     }
 
     .clientes-item {
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
         border: solid 1px #000000fb;
         margin: 10px;
         border-radius: 20px;
@@ -634,7 +666,7 @@ li a:focus {
         margin-top: 10px;
     }
 
-    iframe{
+    iframe {
         width: 100%;
     }
 }
